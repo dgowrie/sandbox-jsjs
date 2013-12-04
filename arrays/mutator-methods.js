@@ -1,6 +1,6 @@
-// JS JS project
-
 // ! ARRAYS
+
+// @Section: Mutator Methods
 
 var tasks;
 
@@ -10,37 +10,55 @@ tasks = [
 	"Walk the dog"
 ];
 
-
+//
+// @topic: pop
+// @page: 30
 tasks.pop();
 //"Walk the dog"
 tasks
 //["Pay phone bill", "Write best-selling novel"]
 
+
+//
+// @topic: push
+// @page: 30
 tasks.push('Remember to walk the dog');
 //3
 tasks
 //["Pay phone bill", "Write best-selling novel", "Remember to walk the dog"]
 
+
+//
+// @topic: reverse
+// @page: 31
 tasks.reverse();
 //["Remember to walk the dog", "Write best-selling novel", "Pay phone bill"]
 
 tasks.reverse();
 //["Pay phone bill", "Write best-selling novel", "Remember to walk the dog"]
 
+
+//
+// @topic: shift
+// @page: 31
 tasks.shift();
 //"Pay phone bill"
 tasks
 //["Write best-selling novel", "Remember to walk the dog"]
 
-tasks.push('Pay the gas bill')
-//3
-tasks
-//["Write best-selling novel", "Remember to walk the dog", "Pay the gas bill"]
 
+
+//
+// @topic: sort
+// @page: 31
 tasks.sort();
 //["Pay the gas bill", "Remember to walk the dog", "Write best-selling novel"]
 
-// ! Splice
+
+
+//
+// @topic: splice
+// @page: 32
 var tasks = [
 	"Pay phone bill",
 	"Write best-selling novel",
@@ -84,7 +102,9 @@ task;
 //["Write best-selling novel"]
 
 
-// ! Unshift
+//
+// @topic: unshift
+// @page: 34
 var tasks, len;
 
 tasks = [
